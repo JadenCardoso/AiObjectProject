@@ -1,0 +1,17 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width:100%;
+    top:0px;
+    height: 10%;
+    font-size: large;
+    color: yellow;
+}
+
+canvas{
+    border:2px solid white;
+    box-shadow: 5px 5px 5px white;
+    border-radius: 20px;
+}
