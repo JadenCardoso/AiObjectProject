@@ -5,14 +5,14 @@ InputtedItem = "";
 
 function setup(){
     canvas = createCanvas(380, 380);
-    canvas.position(500,390);
+    canvas.position(500, 390);
     video = createCapture(VIDEO);
     video.size(380, 380);
     video.hide();
 }
 
 function start(){
-    objectDetector = ml5.objectDetector("cocossd",gotResults)
+    objectDetector = ml5.objectDetector("cocossd",gotResult)
     document.getElementById("status").innerHTML = "Status: Detecting object";
     InputtedItem = document.getElementById("objectInput").value;
 }
