@@ -24,7 +24,7 @@ function modelLoaded(){
 
 function draw(){
     image(video, 0, 0, 380, 380);
-    if (status = ""){
+    if (status != ""){
         objectDetector.detect(video, gotResult);
         for (i=0; i < objects.length ; i++){
             if (objects[i].label == InputtedItem){
