@@ -12,7 +12,7 @@ function setup(){
 }
 
 function start(){
-    objectDetector = ml5.objectDetector("cocossd",gotResult)
+    objectDetector = ml5.objectDetector("cocossd",modelLoaded)
     document.getElementById("status").innerHTML = "Status: Detecting object";
     InputtedItem = document.getElementById("objectInput").value;
 }
