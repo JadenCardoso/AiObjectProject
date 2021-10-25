@@ -5,7 +5,7 @@ InputtedItem = "";
 
 function setup(){
     canvas = createCanvas(380, 380);
-    canvas.position(500,600);
+    canvas.position(500,390);
     video = createCapture(VIDEO);
     video.size(380, 380);
     video.hide();
